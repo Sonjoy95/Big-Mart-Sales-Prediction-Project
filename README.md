@@ -94,10 +94,10 @@ To replicate the results or run the code:
 
 1. **Create a virtual environment (recommended):**
      ```bash
-     python -m venv venv
-     # On Windows
-     .\venv\Scripts\activate
-     # On macOS/Linux
+     python -m venv your_venv_name  # This code will create virtual environment
+     # Activation on Windows (use command prompt or power shell)
+     .\your_venv_name\Scripts\activate
+     # Activation on macOS/Linux (use terminal)
      source venv/bin/activate
      ```
 
