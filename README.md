@@ -84,6 +84,34 @@ Several plots were generated to analyze the best model's performance:
 * **Feature Importance Plot (from LightGBM base model):** Provided insights into which features were most influential in driving sales predictions.
 
 
-## 6. Conclusion
+## 6. How to Run
+
+To replicate the results or run the code:
+
+1.  **Clone the Repository:** (Assuming this will be in a repo)
+    ```bash
+    git clone https://github.com/Sonjoy95/Big-Mart-Sales-Prediction-Project.git
+    cd Big-Mart-Sales-Prediction-Project
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Place Data:** Ensure `train.csv` is in the project's root directory.
+4.  **Execute Code:** Run the Python scripts sequentially as discussed (preprocessing, tuning individual models, then stacking). The Jupyter Notebook or Colab notebook containing the full code would be ideal.
+
+## 7. Dependencies
+
+* `pandas=2.2.3`
+* `numpy=2.2.6`
+* `scipy=1.15.3`
+* `scikit-learn=1.6.1`
+* `xgboost=3.0.2`
+* `lightgbm=4.6.0`
+* `matplotlib=3.10.3`
+* `seaborn=0.13.2`
+
+
+## 8. Conclusion
 
 This project successfully developed a highly accurate and robust model for Big Mart Sales prediction. Through meticulous data preprocessing, strategic feature engineering, thorough hyperparameter tuning, and advanced ensemble techniques like stacking, the model achieved state-of-the-art performance. This systematic approach can be applied to similar regression problems in other domains.
