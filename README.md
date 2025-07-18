@@ -87,30 +87,34 @@ Several plots were generated to analyze the best model's performance:
 ## 6. How to Run
 
 To replicate the results or run the code:
+
 **Prerequisites:**
    - Python 3.x (Ensure that you have python 3.10 version to avoid library or package compatability issue)
    - Pip (Python package installer) (When you create virtual environment or install python, by default it installs pip and setuptools packages)
 
 1. **Create a virtual environment (recommended):**
-
-     ```bash
+     ```bash
      python -m venv venv
      # On Windows
      .\venv\Scripts\activate
      # On macOS/Linux
      source venv/bin/activate
      ```
-2.  **Clone the Repository:**
+
+3.  **Clone the Repository:**
     ```bash
     git clone https://github.com/Sonjoy95/Big-Mart-Sales-Prediction-Project.git
     cd Big-Mart-Sales-Prediction-Project
     ```
-3.  **Install Dependencies:**
+
+4.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-4.  **Place Data:** Ensure `train.csv` is in the project's root directory.
-5.  **Execute Code:** Run the Python scripts sequentially as discussed (preprocessing, tuning individual models, then stacking). The Jupyter Notebook or Colab notebook containing the full code would be ideal.
+
+5.  **Place Data:** Ensure `train.csv` is in the project's root directory.
+
+7.  **Execute Code:** Run the Python scripts sequentially as discussed (preprocessing, tuning individual models, then stacking). The Jupyter Notebook or Colab notebook containing the full code would be ideal.
 
 ## 7. Dependencies
 
