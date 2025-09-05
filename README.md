@@ -49,11 +49,11 @@ To achieve the best possible performance, a **`StackingRegressor`** was implemen
 
 The models were evaluated using **R-squared**, **Mean Absolute Error (MAE)**, and **Root Mean Squared Error (RMSE)** on the test set.
 
-| Metric | Initial Tuned XGBoost (Test) | Stacked (Non-Tuned Bases) (Test) | **Stacked (TUNED Bases)** (Test) |
-| :--- | :--- | :--- | :--- |
-| **R-squared** | 0.6132 | 0.6138 | **0.6158** |
-| **MAE** | 708.35 | 709.32 | **708.18** |
-| **RMSE** | 1025.27 | 1024.51 | **1021.85** |
+| Metric | Initial Tuned XGBoost (Test) |Tuned LightGBM (Test)| Stacked (Non-Tuned Bases) (Test) | **Stacked (TUNED Bases)** (Test) |
+| :--- | :--- | :--- | :--- |:---|
+| **R-squared** | 0.6132|0.6157 | 0.6140 | **0.6160** |
+| **MAE** | 708.3494|708.9448 | 709.3907 | **708.1326** |
+| **RMSE** | 1025.2722|1022.0349 | 1024.2878 | **1021.6218** |
 
 The **Stacked Regressor Model with Tuned Base Models** delivered the highest R-squared and lowest error metrics, demonstrating its superior predictive power and excellent generalization to new data.
 
